@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0b1020"/>
+  
+  <!-- Outer square frame with faceted corner cuts -->
+  <polygon points="40,16 216,16 240,40 240,216 216,240 40,240 16,216 16,40" fill="none" stroke="#e8ecf5" stroke-width="2" opacity="0.35"/>
+  
+  <!-- Sapphire gemstone - isometric wireframe, off-center composition -->
+  <!-- Main gem body as faceted polygon -->
+  <polygon points="128,44 196,88 196,168 128,212 60,168 60,88" fill="none" stroke="#2f6bff" stroke-width="2.5"/>
+  
+  <!-- Top crown facets -->
+  <polygon points="128,44 196,88 128,112" fill="none" stroke="#7fd4ff" stroke-width="1.8"/>
+  <polygon points="128,44 128,112 60,88" fill="none" stroke="#7fd4ff" stroke-width="1.8"/>
+  
+  <!-- Table facet -->
+  <polygon points="128,44 196,88 128,112 60,88" fill="#2f6bff" opacity="0.12" stroke="#e8ecf5" stroke-width="1.5"/>
+  
+  <!-- Mid girdle facets -->
+  <polygon points="196,88 196,168 128,140" fill="none" stroke="#7fd4ff" stroke-width="1.6"/>
+  <polygon points="60,88 60,168 128,140" fill="none" stroke="#7fd4ff" stroke-width="1.6"/>
+  <polygon points="196,88 128,140 60,88" fill="none" stroke="#2f6bff" stroke-width="1.4"/>
+  
+  <!-- Lower pavilion facets -->
+  <polygon points="196,168 128,212 128,140" fill="none" stroke="#7fd4ff" stroke-width="1.6"/>
+  <polygon points="60,168 128,212 128,140" fill="none" stroke="#7fd4ff" stroke-width="1.6"/>
+  
+  <!-- Interior facet lines for gem depth -->
+  <line x1="128" y1="44" x2="128" y2="140" stroke="#e8ecf5" stroke-width="0.8" opacity="0.35"/>
+  <line x1="196" y1="88" x2="128" y2="212" stroke="#e8ecf5" stroke-width="0.8" opacity="0.25"/>
+  <line x1="60" y1="88" x2="128" y2="212" stroke="#e8ecf5" stroke-width="0.8" opacity="0.25"/>
+  
+  <!-- Sparkle accents - precise, small, nocturnal -->
+  <circle cx="128" cy="44" r="2.5" fill="#e8ecf5"/>
+  <circle cx="196" cy="88" r="1.8" fill="#7fd4ff"/>
+  <circle cx="60" cy="88" r="1.8" fill="#7fd4ff"/>
+  <circle cx="128" cy="212" r="1.5" fill="#2f6bff"/>
+  
+  <!-- Activation crosshair / precision reticle around gem, off-center -->
+  <line x1="128" y1="30" x2="128" y2="36" stroke="#7fd4ff" stroke-width="1.2" opacity="0.7"/>
+  <line x1="128" y1="220" x2="128" y2="226" stroke="#7fd4ff" stroke-width="1.2" opacity="0.7"/>
+  <line x1="46" y1="128" x2="52" y2="128" stroke="#7fd4ff" stroke-width="1.2" opacity="0.7"/>
+  <line x1="204" y1="128" x2="210" y2="128" stroke="#7fd4ff" stroke-width="1.2" opacity="0.7"/>
+  
+  <!-- Corner precision ticks -->
+  <polyline points="24,48 24,24 48,24" fill="none" stroke="#7fd4ff" stroke-width="1.5" opacity="0.6"/>
+  <polyline points="208,24 232,24 232,48" fill="none" stroke="#7fd4ff" stroke-width="1.5" opacity="0.6"/>
+  <polyline points="232,208 232,232 208,232" fill="none" stroke="#7fd4ff" stroke-width="1.5" opacity="0.6"/>
+  <polyline points="48,232 24,232 24,208" fill="none" stroke="#7fd4ff" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Small wordmark -->
+  <text x="128" y="248" text-anchor="middle" font-family="monospace" font-size="7" fill="#7fd4ff" letter-spacing="3" opacity="0.6">SAPPHIRE</text>
+</svg>
